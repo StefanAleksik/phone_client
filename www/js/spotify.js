@@ -1,7 +1,14 @@
 /**
  * Created by Stefan Aleksik on 08.3.2017.
  */
-
+/*
+* @author: Stefan, contributor: Alisa
+*
+* AJAX inspiration: http://hollyschinsky.github.io/spotify-browser/; http://stackoverflow.com/questions/36885050/line-application-login-api-auth2-not-working/38151815 (this is not the original but just a copy Alisa can find the original url)
+*
+* code for @param state https://github.com/spotify/web-api-auth-examples/blob/master/implicit_grant/public/index.html
+*
+* */
 var spotify = {
 
     authorize: function (callback) {
