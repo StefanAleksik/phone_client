@@ -1,0 +1,8 @@
+NOTES
+
+
+-- Connection with the server --
+We should only invoke spotifyGetData and lastFmGetData with one trigger which is conditioned by a WiFi network true (Also for update and send to server)
+We should always have a connection with the DBserver during a party even on mobile data
+We should always have a connection with the server to check for a party even on mobile data
+

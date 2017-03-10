@@ -1,0 +1,9 @@
+01. Illumination - Stefan - Basic part done // see comments in illumination.js for improvement
+02. Get Spotify data -Stefan
+03. Location - Stefan - Done
+04. Trigger for party geolocation - Stefan
+05. Trigger for song - TBA
+06. Make DB server - Dawit
+07. Establish websocket connection - Dawit
+08. JSON to CSV
+09. Check for old songs
