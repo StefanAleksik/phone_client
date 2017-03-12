@@ -7,4 +7,8 @@ We should always have a connection with the DBserver during a party even on mobi
 We should always have a connection with the server to check for a party even on mobile data
 
 -- For data --
-Try to run somehow the data download in the background (maybe to run the inAppBrowser in the background while the user interacts with the App window)
+Try to run somehow the data download in the background
+(maybe to run the inAppBrowser in the background while the user interacts with the App window) - After testing I noticed that there is no need of this
+
+
+-- Spotify data history --

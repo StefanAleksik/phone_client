@@ -8,6 +8,9 @@
  We can make an algorithm that generates warm and cold colors using the hex color spectrum and use it on songs depending on their mood
  + we can use multiple elements (<div>) to make the screen more interactive
  + we can add animation to the div
+ + song data for Spotify https://developer.spotify.com/web-api/get-audio-features/; https://developer.spotify.com/web-api/get-audio-analysis/; https://developer.spotify.com/web-api/get-several-audio-features/
+   with this data we can provide unique illumination for each matching song
+   we can use one source for the song data (either Spotify or LastFm)
 
  */
 

@@ -20,8 +20,8 @@ function getUserLocation() {
         myParty.lat = latitude;
         myParty.lng = longitude;
         myParty.callPlacesAPI();
-        $('#location').append('<p>Latitude is ' + latitude + '<br>Longitude is ' + longitude + '</p>');
-        $("#pp").html("This browser can create XMLHttpRequest object: " + jQuery.support.ajax);
+        /*$('#location').append('<p>Latitude is ' + latitude + '<br>Longitude is ' + longitude + '</p>');
+        $("#pp").html("This browser can create XMLHttpRequest object: " + jQuery.support.ajax);*/
 
     }
 

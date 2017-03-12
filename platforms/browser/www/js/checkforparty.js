@@ -42,9 +42,13 @@ function getDistanceFromLatLonInM(lat1,lon1,lat2,lon2) {
     //for building a CMS we should also allow the users to add radius
 
     console.log('distance is: ' + dm);
-    if (dm < 500){
+    if (dm <= 50){
+        $('#illumination').show();
         illumination();
-    } //
+    }
+    else {
+        $('#new').append('<p>No party in radius of 50m</p>');
+    }
 }
 
 function deg2rad(deg) {
