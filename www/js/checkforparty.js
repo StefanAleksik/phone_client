@@ -36,13 +36,13 @@ function getDistanceFromLatLonInM(lat1,lon1,lat2,lon2) {
     var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
     var d = R * c ; // Distance in km
     var dm = d *1000; // Distance in m
-
+    var radius = 50; // Radius from the party in m
 
     /* Here you can trigger the screen on distance*/
     //for building a CMS we should also allow the users to add radius
 
     console.log('distance is: ' + dm);
-    if (dm <= 50){
+    if (dm <= radius){
         $('#illumination').show();
         illumination();
     }

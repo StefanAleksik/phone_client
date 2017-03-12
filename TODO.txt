@@ -1,9 +1,11 @@
 01. Illumination - Stefan - Basic part done // see comments in illumination.js for improvement
-02. Get Spotify data -Stefan
+02. Get Spotify data -Stefan - 80% Done, feeling lazzy at the moment to create a new function for the Playlists or I should set a 3rd callback for the getSpotifyData function
 03. Location - Stefan - Done
-04. Trigger for party geolocation - Stefan
+04. Trigger for party geolocation - Stefan - Done
 05. Trigger for song - TBA
 06. Make DB server - Dawit
 07. Establish websocket connection - Dawit
-08. JSON to CSV
-09. Check for old songs
+08. JSON to CSV - Dawit
+09. Check for old songs - Stefan
+10. GetData only on WiFi - Stefan - Done
+11. Get LastFm data - Dawit

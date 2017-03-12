@@ -12,3 +12,7 @@ Try to run somehow the data download in the background
 
 
 -- Spotify data history --
+Spotify has a parameter added_at in the playlist-track, album and track objects
+ - https://developer.spotify.com/web-api/object-model/#track-object-full  -- The date and time the track was saved.
+ - https://developer.spotify.com/web-api/object-model/#playlist-track-object -- The date and time the track was added. Note that some very old playlists may return null in this field.
+ - https://developer.spotify.com/web-api/object-model/#saved-album-object -- The date and time the track was added. Note that some very old playlists may return null in this field.
