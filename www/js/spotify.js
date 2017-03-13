@@ -78,9 +78,9 @@ function getSpotifyData(key, url) {
                 'Authorization': 'Bearer ' + key
             },
             success: function(response) {
-                alert(url);
-                alert(response.total);
-                alert(response.next);
+                /*alert(url);*/
+                /*alert(response.total);
+                alert(response.next);*/
                 //here we should send the data -- Dawit do your magic
                 if(response.next){
                     getSpotifyData(key, response.next); //this is a Pagination object parameter that consist the next array of items

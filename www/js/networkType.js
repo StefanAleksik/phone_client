@@ -6,6 +6,7 @@ function checkConnection() {
 
     if (networkState == Connection.WIFI){
         callSpotify();
+        callLastFM();
         /*
         * callLastFM()
         * Dawit invoke LastFM API calls here
